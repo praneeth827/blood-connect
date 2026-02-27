@@ -1,0 +1,29 @@
+{
+  "name": "blood-donation-management-system-main",
+  "version": "1.0.0",
+  "description": "A modern, mobile‑friendly website that connects blood seekers with nearby donors. Built with plain HTML, CSS, and JavaScript, using Firebase Authentication and localStorage for persistence with Google Maps for geospatial search.",
+  "main": "script.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.6.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
